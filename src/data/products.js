@@ -1,0 +1,68 @@
+const products = [
+  {
+    id: 1,
+    name: "Camara DSLR Pro",
+    price: 3899000,
+    description: "Camara reflex digital con sensor full frame, 45MP y grabacion 4K 60fps. El cuerpo ideal para cine y fotografia.",
+    image: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&h=700&fit=crop",
+    category: "Camaras",
+  },
+  {
+    id: 2,
+    name: "Lente 50mm f/1.4",
+    price: 1249000,
+    description: "Lente prime con apertura f/1.4 para retratos cinematicos y poca luz. Bokeh suave y nitidez excepcional.",
+    image: "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?w=600&h=700&fit=crop",
+    category: "Lentes",
+  },
+  {
+    id: 3,
+    name: "Tripode Fibra de Carbono",
+    price: 689000,
+    description: "Tripode profesional ultraligero de fibra de carbono. Cabezal fluido para video, soporta hasta 12kg.",
+    image: "https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?w=600&h=700&fit=crop",
+    category: "Soporte",
+  },
+  {
+    id: 4,
+    name: "Audifonos Studio Monitor",
+    price: 549000,
+    description: "Audifonos cerrados de monitoreo con respuesta plana. Ideales para edicion de audio y mezcla en post.",
+    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=700&fit=crop",
+    category: "Audio",
+  },
+  {
+    id: 5,
+    name: "Microfono Shotgun",
+    price: 879000,
+    description: "Microfono direccional tipo shotgun para grabacion en set. Patron supercardioide, bajo ruido propio.",
+    image: "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=600&h=700&fit=crop",
+    category: "Audio",
+  },
+  {
+    id: 6,
+    name: "LED Panel Bicolor",
+    price: 459000,
+    description: "Panel LED bicolor 3200K-5600K con dimmer continuo. Alimentacion por bateria V-Mount o AC.",
+    image: "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=600&h=700&fit=crop",
+    category: "Iluminacion",
+  },
+  {
+    id: 7,
+    name: "Monitor de Campo 7\"",
+    price: 1099000,
+    description: "Monitor HDMI de 7 pulgadas con 1000 nits de brillo. Peaking, zebras, LUTs y waveform integrados.",
+    image: "https://images.unsplash.com/photo-1588117305388-c2631a279f82?w=600&h=700&fit=crop",
+    category: "Monitores",
+  },
+  {
+    id: 8,
+    name: "Gimbal Estabilizador 3 Ejes",
+    price: 1549000,
+    description: "Estabilizador motorizado de 3 ejes para camaras hasta 4.2kg. Modos follow, lock y POV.",
+    image: "https://images.unsplash.com/photo-1533310266094-8898a03807dd?w=600&h=700&fit=crop",
+    category: "Soporte",
+  },
+];
+
+export default products;
